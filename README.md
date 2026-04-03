@@ -17,7 +17,7 @@ A python script which fetches members of a specific role from a Roblox group via
 - `requests`
 - `openpyxl`
 
-dependencies:
+Install dependencies:
 
 ```bash
 pip install requests openpyxl
@@ -25,7 +25,7 @@ pip install requests openpyxl
 
 ## Usage
 
-1. Open `roblox_group_exporter.py` and set the config variables at the top:
+1. Open `exporter.py` and set the config variables at the top:
 
 ```python
 GROUP_ID  = 123456789   # Your Roblox group ID
@@ -36,7 +36,7 @@ OUTPUT_FILE = "members.xlsx" # Output filename
 2. Run the script:
 
 ```bash
-python roblox_group_exporter.py
+python exporter.py
 ```
 
 3. The spreadsheet will be saved to the path specified in `OUTPUT_FILE`.
